@@ -36,18 +36,9 @@ h2 {
     color: white;
 }
 
-h5 {
-    margin-top: 0;
-    font-size: 20px;
-    letter-spacing: 1px;
-    font-weight: 100;
-    text-align: center;
-    color: white;
-}
-
 #para {
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     padding: 25px;
     color: white;
