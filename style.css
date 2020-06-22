@@ -36,7 +36,7 @@ h2 {
     color: white;
 }
 
-#para {
+.para {
     text-align: center;
     font-size: 20px;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -44,34 +44,35 @@ h2 {
     color: white;
 }
 
-ul {
-    padding: 0;
-    text-align: center;
-}
-
-a:link {
+.cv{
     color: white;
-    text-decoration: none;
+}
+.cv:hover{
+    color: black;
+    transition: 0.5s;
 }
 
-.media {
+.circle{
     margin: 20px;
     display: inline-block;
     font-size: 20px;
     width: 20px;
     height: 20px;
     padding: 20px 20px;
+    color: white;
     border: 1px solid white;
     border-radius: 50%;
-    transition: .5s;
+    transition: 0.5s;
+    text-decoration: none;
 }
 
-.media:hover {
-    color: black;
-    border: 1px solid black;
-    transition: .5s;
-}
 
 .fa {
     color: white;
+    text-decoration: none;
+}
+
+.fa:hover {
+    transition: 0.5s;
+    transform: scale(2);
 }
