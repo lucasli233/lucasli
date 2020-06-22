@@ -29,11 +29,21 @@ h1 {
     text-transform: uppercase;
     margin-bottom: 0;
     color: white;
+    transition: 0.5s ease;
+}
+
+h1:hover {
+    transform: scale(1.2);
 }
 
 h2 {
     text-align: center;
     color: white;
+    transition: 0.5s ease;
+}
+
+h2:hover {
+    transform: scale(1.2);
 }
 
 .para {
@@ -42,7 +52,13 @@ h2 {
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     padding: 25px;
     color: white;
+    transition: 0.5s ease;
 }
+
+.para:hover {
+    transform: scale(1.2);
+}
+
 
 .cv{
     color: white;
