@@ -32,18 +32,10 @@ h1 {
     transition: 0.5s ease;
 }
 
-h1:hover {
-    transform: scale(1.2);
-}
-
 h2 {
     text-align: center;
     color: white;
     transition: 0.5s ease;
-}
-
-h2:hover {
-    transform: scale(1.2);
 }
 
 .para {
@@ -55,16 +47,18 @@ h2:hover {
     transition: 0.5s ease;
 }
 
-.para:hover {
+h1:hover, h2:hover, .p:hover{
     transform: scale(1.2);
 }
 
+.p{
+    transition: 0.5s ease;
+}
 
 .cv{
     color: white;
 }
 .cv:hover{
-    color: black;
     transition: 0.5s;
 }
 
