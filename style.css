@@ -5,7 +5,7 @@ body {
     animation: Gradient 15s ease infinite;
     text-align: center;
     margin: auto;
-    margin-top: 17%;
+    margin-top: 7%;
 }
 
 @keyframes Gradient {
